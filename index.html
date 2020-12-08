@@ -88,23 +88,23 @@
                         c'est qui ?
                     </p>
                     <img src="images/pngwing.com.png" alt="Avatar (vous)" style="width:50%; margin-left: 10px">
-                    <p style="position:relative;left: 45%;width:100px;margin-top:6px;text-align:center;font-weight:bold; background-color: green">Vous</p>
+                    <p style="position:relative;left: 45%;width:130px;margin-top:6px;font-weight:bold" class="border-myRedac">Vous</p>
                 </div>
 
                 <div class="col-md-6  redacteurs">
                     <div class="j1 journalistes">
                         <img src="images/pngwing.com.png" alt="Avatar (vous)" style="width:80%; margin-left: 10px">
-                        <p style="background-color: green; padding: 0 2px;margin-left:4px; text-align:center; width:80%;margin-top:6px;">Journaliste 1</p>
+                        <p class="border-myRedac">Journaliste 1</p>
                     </div>
 
                     <div class="j2 journalistes">
                         <img src="images/pngwing.com.png" alt="Avatar (vous)" style="width:80%; margin-left: 10px">
-                        <p style="background-color: green; padding: 0 2px;margin-left:4px; text-align:center; width:80%;margin-top:6px;">Journaliste 2</p>
+                        <p class="border-myRedac">Journaliste 2</p>
                     </div>
 
                     <div class="j3 journalistes">
                         <img src="images/pngwing.com.png" alt="Avatar (vous)" style="width:80%; margin-left: 10px">
-                        <p style="background-color: green; padding: 0 2px;margin-left:4px; text-align:center; width:80%;margin-top:6px;">Journaliste 3</p>
+                        <p class="border-myRedac">Journaliste 3</p>
                     </div>
                     
                 </div>
@@ -112,10 +112,47 @@
         </div>
     </section>
 
-    <!-- Javascript Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"></script>
+    <footer>
+        <img src="images/logo.png" alt="Logo My Redac">
+        
+        <!-- Fenêtre Modal CGV -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            CGV
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Condition générale de vente</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    Cum saepe multa, tum memini domi in hemicyclio sedentem, ut solebat, cum et ego essem una et pauci admodum familiares, in eum sermonem illum incidere qui tum forte multis erat in ore. Meministi enim profecto, Attice, et eo magis, quod P. Sulpicio utebare multum, cum is tribunus plebis capitali odio a Q. Pompeio, qui tum erat consul, dissideret, quocum coniunctissime et amantissime vixerat, quanta esset hominum vel admiratio vel querella.<br/><br/>
+
+                    Atque, ut Tullius ait, ut etiam ferae fame monitae plerumque ad eum locum ubi aliquando pastae sunt revertuntur, ita homines instar turbinis degressi montibus impeditis et arduis loca petivere mari confinia, per quae viis latebrosis sese convallibusque occultantes cum appeterent noctes luna etiam tum cornuta ideoque nondum solido splendore fulgente nauticos observabant quos cum in somnum sentirent effusos per ancoralia, quadrupedo gradu repentes seseque suspensis passibus iniectantes in scaphas eisdem sensim nihil opinantibus adsistebant et incendente aviditate saevitiam ne cedentium quidem ulli parcendo obtruncatis omnibus merces opimas velut viles nullis repugnantibus avertebant. haecque non diu sunt perpetrata.<br/><br/>
+
+                    Itaque verae amicitiae difficillime reperiuntur in iis qui in honoribus reque publica versantur; ubi enim istum invenias qui honorem amici anteponat suo? Quid? Haec ut omittam, quam graves, quam difficiles plerisque videntur calamitatum societates! Ad quas non est facile inventu qui descendant. Quamquam Ennius recte.<br/><br/>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+    </footer>
+
     <!-- Javascript -->
     <script src="js/javascript.js"></script>
+    <!-- Javascript Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 </body>
 </html>
