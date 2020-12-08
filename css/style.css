@@ -31,6 +31,14 @@ body {
         font-size: 20px;
     }
 }
+.tel {
+    text-decoration: none;
+    color: #000;
+    transition: all .6s;
+}
+.tel:hover {
+    color: #fff;
+}
 .btn {
     font-size: 16px !important;
     margin-top: 16px;
