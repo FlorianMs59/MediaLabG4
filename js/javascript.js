@@ -1,5 +1,1 @@
-$(function(){
-    
-    $('.dropdown-toggle').dropdown()
-    
-})  
+
