@@ -9,9 +9,13 @@ body {
 /* MENU */
 .navbar-brand > img {
     width: 200px;
+    position: relative;
+    top: 10px;
+    left: 16px;
 }
 .nav-item > .btn-warning {
     color: green;
+    position: relative;
 }
 .nav-item > .btn-warning:hover {
     color: orange;
@@ -34,7 +38,13 @@ body {
 }
 @media (max-width: 800px) {
     .title-container {
-        font-size: 20px;
+        font-size: 20px;        
+    }
+    .navbar-brand > img {
+        width: 140px;
+        position: relative;
+        top: 10px;
+        left: 16px;
     }
 }
 .tel {
@@ -157,6 +167,8 @@ footer {
 }
 footer > img {
     width: 150px;
+    position: relative;
+    left: 20px;
 }
 .mention-btn {
     display:inline;
@@ -172,12 +184,19 @@ footer > img {
     float:right;
     margin-right:20px
 }
-@media (max-whith: 640px) {
+@media (max-width: 640px) {
     .cgv-btn {
         display:inline !important;
         position:absolute !important;
         float: none;
         
-        left: 35% !important;
+        left: 2% !important;
+    }
+    footer > img {
+        /* display: none; */
+        width: 80px;
+        position:absolute !important;
+        margin-left: 50%;
+        left: -90px;
     }
 }
