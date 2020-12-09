@@ -17,6 +17,7 @@ body {
 .nav-item > .btn-warning {
     color: green;
     position: relative;
+    right: 10px;
 }
 .nav-item > .btn-warning:hover {
     color: orange;
