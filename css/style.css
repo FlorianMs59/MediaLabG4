@@ -128,7 +128,17 @@ body {
 #kesako {
     font-size: 30px;
 }
-
+.journaliste_avatar {
+    width:130px;
+    margin-left: 10px
+}
+@media (max-width: 640px) {
+    .journaliste_avatar, .border-myRedac {
+        width: 90px;
+        position: relative;
+        left: 25px;
+    }
+}
 /* MyRedac c'est qui ? */
 
 #MyRedac-who {
