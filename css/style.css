@@ -37,7 +37,7 @@ body {
     transition: all .6s;
 }
 .tel:hover {
-    color: #fff;
+    color: green;
 }
 .btn {
     font-size: 16px !important;
@@ -45,6 +45,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all .4s;
 }
 @media (max-width:600px) {
 
@@ -52,16 +53,43 @@ body {
         width: 80% !important;
     }
 }
+.btn:hover{
+    transform: scale(1.04);
+}
 .abonnement-periode {
     margin-top: 20px;
     padding-bottom: 8px;
     font-size: 18px;
     font-weight: bold;
 }
-.abonnement-periode > span {
+@media (max-width:800px) {
+    .abonnement-periode {
+        font-size: 14px !important;
+    }
+}
+.free_test {
+    text-decoration: none;
+    color: #000;
+    transition: all .4s;
+
+}
+.free_test:hover{
+    color: orange;
+}
+.btn-warning:hover {
+    transition: all .4s;
+    background-color: green;
+}
+.abo-vous {
     color: orange;
     font-weight: bold;
     font-size: 19px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.abo-vous:hover {
+    font-size: 20px;
+    text-decoration: underline;
 }
 /* Présentation de MyRédac */
 
