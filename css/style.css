@@ -158,3 +158,26 @@ footer {
 footer > img {
     width: 150px;
 }
+.mention-btn {
+    display:inline;
+    position:relative;
+    right: 0;
+    float:right;
+    margin-right:20px
+}
+.cgv-btn {
+    display:inline;
+    position:relative;
+    right: 0;
+    float:right;
+    margin-right:20px
+}
+@media (max-whith: 640px) {
+    .cgv-btn {
+        display:inline !important;
+        position:absolute !important;
+        float: none;
+        
+        left: 35% !important;
+    }
+}
