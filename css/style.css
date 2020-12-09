@@ -10,6 +10,12 @@ body {
 .navbar-brand > img {
     width: 200px;
 }
+.nav-item > .btn-warning {
+    color: green;
+}
+.nav-item > .btn-warning:hover {
+    color: orange;
+}
 /* MEDIA WhatsApp */
 
 #media {
