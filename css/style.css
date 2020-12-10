@@ -2,6 +2,7 @@
 body {
     font-family: 'Poppins', sans-serif !important;
     background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-0/p280x280/130268237_708496499798633_3055728814755261592_n.png?_nc_cat=106&ccb=2&_nc_sid=ae9488&_nc_ohc=guhalAAxloEAX9ypnEb&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&_nc_tp=30&oh=f13562ff2efb1a507d1050b9b42177cd&oe=5FF5D5B8);
+    background-attachment: fixed;
 }
 .btn {
     border: 2px solid green;
